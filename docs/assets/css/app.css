@@ -178,7 +178,7 @@ a {
   /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
   a:hover {
     color: #740511;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 /* line 216, node_modules/bootstrap/scss/_reboot.scss */
 a:not([href]):not([tabindex]) {
