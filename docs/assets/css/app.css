@@ -89,7 +89,7 @@ hr {
   overflow: visible; }
 
 /* line 99, node_modules/bootstrap/scss/_reboot.scss */
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
@@ -366,17 +366,13 @@ template {
   display: none !important; }
 
 /* line 7, node_modules/bootstrap/scss/_type.scss */
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h2, h3, h4, h5, h6,
+.h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 600;
   line-height: 1.3;
   color: inherit; }
-
-/* line 16, node_modules/bootstrap/scss/_type.scss */
-h1, .h1 {
-  font-size: 2.5rem; }
 
 /* line 17, node_modules/bootstrap/scss/_type.scss */
 h2, .h2 {
