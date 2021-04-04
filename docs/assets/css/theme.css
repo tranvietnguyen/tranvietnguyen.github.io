@@ -5,6 +5,7 @@ img {
 
 /* line 5, src/assets/scss/theme.scss */
 a, .a:hover {
+  text-decoration: none;
   -webkit-transition: all 0.2s;
   transition: all 0.2s; }
 
