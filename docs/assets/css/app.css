@@ -5203,7 +5203,7 @@ input[type="button"].btn-block {
     widows: 1; }
     /* line 267, node_modules/bootstrap/scss/_card.scss */
     .card-columns .card {
-      display: inline-block;
+      display: inline-grid;
       width: 100%; } }
 
 /* line 280, node_modules/bootstrap/scss/_card.scss */
