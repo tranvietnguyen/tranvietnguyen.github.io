@@ -3037,6 +3037,7 @@ a[title="站长统计"] {
   background: #f5f5f5;
   color: #4d4d4c;
 }
+
 .post-content pre code {
   background: none;
   color: #4d4d4c;
@@ -3765,13 +3766,12 @@ pre .javascript .function {
 }
 .post-copyright {
   margin-bottom: 100px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .post-copyright .content {
   margin-bottom: 1em;
   padding: 20px 30px;
-  word-break: break-all;
-  color: #727272;
+  color: #525252;
   background: #f1f3fa;
   border-radius: 30px 30px 0;
 }
