@@ -2988,7 +2988,7 @@ a[title="站长统计"] {
   color: #c5cae9;
 }
 .content-header .title {
-  font-weight: 500;
+  font-weight: 300;
 }
 .content-header .article-category-list-link {
   color: #ff73a3;
@@ -3016,7 +3016,7 @@ a[title="站长统计"] {
   }
   .content-header .title {
     font-size: 18px;
-    line-height: 27px;
+    line-height: 29px;
   }
   .content-header .subtitle {
     font-size: 14px;
