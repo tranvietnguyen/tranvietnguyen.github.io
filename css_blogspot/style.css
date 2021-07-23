@@ -3023,7 +3023,7 @@ a[title="站长统计"] {
     line-height: 20px;
   }
   .post-header .title {
-    display: block;
+    display: none;
     font-size: 24px;
     line-height: 1.5;
   }
@@ -4046,7 +4046,7 @@ pre .javascript .function {
     border-radius: 2px;
   }
   .post-card-title {
-    display: none;
+    display: block;
   }
   .post-nav {
     padding: 0;
