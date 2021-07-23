@@ -2978,8 +2978,8 @@ a[title="站长统计"] {
   min-height: 210px;
   margin-left: -240px;
   padding: 104px 16px 48px 256px;
-  color: #302a2a;
-  background: #ffffff;
+  color: #ffffff;
+  background: #3f51b5;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 .content-header .subtitle {
