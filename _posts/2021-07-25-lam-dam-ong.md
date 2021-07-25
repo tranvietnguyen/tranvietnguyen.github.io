@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Làm đàn ông, các bạn cần học cách lắng nghe bản thân, làm bạn với bản thân, và chăm lo cho bản thân, ngay từ bây giờ"
+categories: Đàn ông chân chính
+author:
+- Thầy Giáo Giảng
+- TGG
+meta: "mô tả bài viết"
+---
+
+
 Làm đàn ông, các bạn cần học cách lắng nghe bản thân, làm bạn với bản thân, và chăm lo cho bản thân, ngay từ bây giờ.
 
 Vì thực tế là, dù ta có lý trí đến đâu, hay đúng hơn là cố gắng lý trí đến đâu, thì nỗi cô đơn, như một con sói hoang đói mồi, sẽ luôn rình rập quanh bạn, theo dõi bạn, và vồ lấy bạn vào những thời khắc bất ngờ nhất.
