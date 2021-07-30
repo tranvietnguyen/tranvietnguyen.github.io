@@ -3713,6 +3713,9 @@ pre .javascript .function {
 .post-card-title {
   font-size: 24px;
 }
+.post-card .post-content {
+  font-size: 19px;
+}
 .post-nav {
   margin-top: 30px;
   padding: 16px 0 0;
