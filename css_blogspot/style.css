@@ -3213,8 +3213,11 @@ pre .javascript .function {
 .post-title {
   margin: 0 0 16px;
 }
+.post-title a:hover {
+  color: #414141;
+}
 .post-title-link {
-  color: #3f51b5;
+  color: #313131;
   position: relative;
   display: inline-block;
 }
