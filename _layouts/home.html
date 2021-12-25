@@ -1,0 +1,156 @@
+---
+layout: default
+---
+
+
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+
+<ul class="post-list">
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
+  <li class="post-list-item fade in">
+    <article class="article-card article-type-post" itemprop="blogPost">
+      <div class="post-meta">
+        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{% assign 7day = post.date | date: "%a" %}{% case 7day %}
+{% when 'Mon' %}Thứ Hai
+{% when 'Tue' %}Thứ Ba
+{% when 'Wed' %}Thứ Tư
+{% when 'Thu' %}Thứ Năm
+{% when 'Fri' %}Thứ Sáu
+{% when 'Sat' %}Thứ Bảy
+{% when 'Sun' %}Chủ Nhật
+{% endcase %}{{ post.date | date: ", ngày %d tháng %m năm %Y" }}</time></div>
+
+    <h3 class="post-title" itemprop="name">
+      <a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.content | markdownify | truncatewords: 75 | replace: '<p>', '' | replace: '</p>', '<br /><br />' }}
+        <span class="post-more waves-effect waves-button" style="font-weight: bold;">Xem thêm</span>
+      </a>
+    </h3>
+  <div class="post-content" id="post-content" itemprop="postContent">
+
+    {%- if site.show_excerpts -%}
+    
+    {% assign foundImage = 0 %}
+    {% assign images = post.content | split:"<img " %}
+    {% for src_image in images %}
+      {% if src_image contains 'src=' %}
+          {% if foundImage == 0 %}
+              {% assign first_image = src_image | split:"/>" | first %}
+              <div style="text-align: center;"><a href="{{ post.url | relative_url }}"><img {{ first_image }} /></a></div>
+              {% assign foundImage = 1 %}
+          {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if post.content contains '<!--excerpt.s-->' %}
+    {% assign excerptParts = post.content | split: "<!--excerpt.s-->" %}
+    {% assign filter_html = excerptParts[1] | strip_html %}
+    {{ filter_html | truncatewords: 30 }}
+    {% else %}
+    {{ post.content | markdownify | strip_html | truncatewords: 30 }}
+    {%- endif -%}
+    {%- endif -%}
+  </div>
+  {%- if post.author -%}
+  <div class="post-footer">
+  <ul class="article-tag-list">
+    {% for tag in post.tags %}
+    <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ tag | slugify | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'ạ', 'a' | replace: 'ã', 'a' | replace: 'ả', 'a' | replace: 'ă', 'a' | replace: 'ắ', 'a' | replace: 'ằ', 'a' | replace: 'ặ', 'a' | replace: 'ẵ', 'a' | replace: 'ẳ', 'a' | replace: 'â', 'a' | replace: 'ấ', 'a' | replace: 'ầ', 'a' | replace: 'ậ', 'a' | replace: 'ẫ', 'a' | replace: 'ẩ', 'a' | replace: 'đ', 'd' | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'ẹ', 'e' | replace: 'ẽ', 'e' | replace: 'ẻ', 'e' | replace: 'ê', 'e' | replace: 'ế', 'e' | replace: 'ề', 'e' | replace: 'ệ', 'e' | replace: 'ễ', 'e' | replace: 'ể', 'e' | replace: 'í', 'i' | replace: 'ì', 'i' | replace: 'ị', 'i' | replace: 'ĩ', 'i' | replace: 'ó', 'o' | replace: 'ò', 'o' | replace: 'ọ', 'o' | replace: 'õ', 'o' | replace: 'ỏ', 'o' | replace: 'ô', 'o' | replace: 'ố', 'o' | replace: 'ồ', 'o' | replace: 'ộ', 'o' | replace: 'ỗ', 'o' | replace: 'ổ', 'o' | replace: 'ơ', 'o' | replace: 'ớ', 'o' | replace: 'ờ', 'o' | replace: 'ợ', 'o' | replace: 'ỡ', 'o' | replace: 'ở', 'o' | replace: 'ú', 'u' | replace: 'ù', 'u' | replace: 'ụ', 'u' | replace: 'ũ', 'u' | replace: 'ủ', 'u' | replace: 'ư', 'u' | replace: 'ứ', 'u' | replace: 'ừ', 'u' | replace: 'ự', 'u' | replace: 'ữ', 'u' | replace: 'ử', 'u' | replace: 'ý', 'y' | replace: 'ỳ', 'y' | replace: 'ỵ', 'y' | replace: 'ỹ', 'y' | replace: 'ỷ', 'y' }}">{{ tag }} </a></li>
+    {%- if forloop.last == false %} {% endif -%}
+    {% endfor %}
+  </ul>
+  </div>
+{%- endif -%}
+    </article>
+  </li>
+      {%- endfor -%}
+</ul>
+
+
+
+<!--phan trang-->
+
+{% if paginator.total_pages > 1 %}
+<nav id="page-nav">
+  <div class="inner">
+    {% comment %} Link for previous page {% endcomment %}
+    {% if paginator.previous_page %}
+      <a class="page-number waves-effect waves-button" href="{{ paginator.previous_page_path | relative_url }}">&laquo; Trang trước</a>
+    {% else %}
+      <!--Trang dau-->
+    {% endif %}
+
+    {% comment %} First page {% endcomment %}
+    {% if paginator.page == 1 %}
+    <span class="page-number current waves-effect waves-button">1</span>
+    {% else %}
+    <a class="page-number waves-effect waves-button" href="{{ '/' | relative_url }}">1</a>
+    {% endif %}
+
+    {% assign page_start = 2 %}
+    {% if paginator.page > 4 %}
+      {% assign page_start = paginator.page | minus: 2 %}
+      {% comment %} Ellipsis for truncated links {% endcomment %}
+      <span class="space waves-effect waves-button">…</span>
+    {% endif %}
+
+    {% assign page_end = paginator.total_pages | minus: 1 %}
+    {% assign pages_to_end = paginator.total_pages | minus: paginator.page %}
+    {% if pages_to_end > 4 %}
+      {% assign page_end = paginator.page | plus: 2 %}
+    {% endif %}
+
+    {% for index in (page_start..page_end) %}
+      {% if index == paginator.page %}
+      <span class="page-number current waves-effect waves-button">{{ index }}</span>
+      {% else %}
+        {% comment %} Distance from current page and this link {% endcomment %}
+        {% assign dist = paginator.page | minus: index %}
+        {% if dist < 0 %}
+          {% comment %} Distance must be a positive value {% endcomment %}
+          {% assign dist = 0 | minus: dist %}
+        {% endif %}
+        <a class="page-number waves-effect waves-button" href="{{ index | relative_url }}">{{ index }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% comment %} Ellipsis for truncated links {% endcomment %}
+    {% if pages_to_end > 4 %}
+    <span class="space waves-effect waves-button">…</span>
+    {% endif %}
+
+    {% if paginator.page == paginator.total_pages %}
+    <span class="page-number current waves-effect waves-button">{{ paginator.page }}</span>
+    {% else %}
+    <a class="page-number waves-effect waves-button" href="{{ paginator.total_pages | relative_url }}">{{ paginator.total_pages }}</a>
+    {% endif %}
+
+    {% comment %} Link next page {% endcomment %}
+    {% if paginator.next_page %}
+    <a class="page-number waves-effect waves-button" href="{{ paginator.next_page_path | relative_url }}">Trang tiếp theo &raquo;</a>
+    {% else %}
+      <!--Trang cuoi-->
+    {% endif %}
+    </div>
+</nav>
+{% endif %}
+
+  {%- endif -%}
+

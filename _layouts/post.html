@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<article id="post-multipart-x-mixed-replace" class="post-article article-type-post fade in" itemprop="blogPost">
+  <div class="post-card">
+    <h1 class="post-card-title" style="display: none;">{{ page.title | escape }}</h1>
+    <div class="post-content" id="post-content" itemprop="postContent">
+      {% assign post_cm = content | split: "<!--excerpt.s-->" %}
+      {{ post_cm[0] }}
+      <div class="post-meta">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <time class="post-time" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>
+        </div>
+    {{ post_cm[1] }}
+    </div>
+    <blockquote class="post-copyright">
+      <div class="content">
+        <!--{%- if page.modified_date -%}
+        ~ 
+        {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+        <span class="post-time">Lần cập nhật cuối cùng:<time datetime="{{ mdate }}" itemprop="dateUpdated">{{ now | date: date_format }}</time></span>
+        {%- endif -%}-->
+        <span class="post-time">Lần cập nhật cuối cùng:<time datetime="{{ now | date: date_format }}" itemprop="dateUpdated">{{ page.date | "now" | date: "%Y-%m-%d %H:%M" }}</time></span>
+        <br>
+        Liên kết gốc: <a href="{{ page.url | relative_url }}" target="_blank" rel="external">https://tranvietnguyen.github.io{{ page.url | relative_url }}</a>
+      </div>
+      <footer><a href="http://tranvietnguyen.github.io"><img src="/images/icon.png" alt="Tran Viet Nguyen">Nguyen Yusen</a></footer>
+    </blockquote>
+    <div class="post-footer">
+    {%- if page.author -%}
+      <ul class="article-tag-list">
+        {% for author in page.author %}
+        <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ author | slugify | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'ạ', 'a' | replace: 'ã', 'a' | replace: 'ả', 'a' | replace: 'ă', 'a' | replace: 'ắ', 'a' | replace: 'ằ', 'a' | replace: 'ặ', 'a' | replace: 'ẵ', 'a' | replace: 'ẳ', 'a' | replace: 'â', 'a' | replace: 'ấ', 'a' | replace: 'ầ', 'a' | replace: 'ậ', 'a' | replace: 'ẫ', 'a' | replace: 'ẩ', 'a' | replace: 'đ', 'd' | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'ẹ', 'e' | replace: 'ẽ', 'e' | replace: 'ẻ', 'e' | replace: 'ê', 'e' | replace: 'ế', 'e' | replace: 'ề', 'e' | replace: 'ệ', 'e' | replace: 'ễ', 'e' | replace: 'ể', 'e' | replace: 'í', 'i' | replace: 'ì', 'i' | replace: 'ị', 'i' | replace: 'ĩ', 'i' | replace: 'ó', 'o' | replace: 'ò', 'o' | replace: 'ọ', 'o' | replace: 'õ', 'o' | replace: 'ỏ', 'o' | replace: 'ô', 'o' | replace: 'ố', 'o' | replace: 'ồ', 'o' | replace: 'ộ', 'o' | replace: 'ỗ', 'o' | replace: 'ổ', 'o' | replace: 'ơ', 'o' | replace: 'ớ', 'o' | replace: 'ờ', 'o' | replace: 'ợ', 'o' | replace: 'ỡ', 'o' | replace: 'ở', 'o' | replace: 'ú', 'u' | replace: 'ù', 'u' | replace: 'ụ', 'u' | replace: 'ũ', 'u' | replace: 'ủ', 'u' | replace: 'ư', 'u' | replace: 'ứ', 'u' | replace: 'ừ', 'u' | replace: 'ự', 'u' | replace: 'ữ', 'u' | replace: 'ử', 'u' | replace: 'ý', 'y' | replace: 'ỳ', 'y' | replace: 'ỵ', 'y' | replace: 'ỹ', 'y' | replace: 'ỷ', 'y' }}">{{ author }}</a></li>
+        {%- if forloop.last == false %} {% endif -%}
+        {% endfor %}
+        {% for tag in page.tags %}
+        <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ tag | slugify | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'ạ', 'a' | replace: 'ã', 'a' | replace: 'ả', 'a' | replace: 'ă', 'a' | replace: 'ắ', 'a' | replace: 'ằ', 'a' | replace: 'ặ', 'a' | replace: 'ẵ', 'a' | replace: 'ẳ', 'a' | replace: 'â', 'a' | replace: 'ấ', 'a' | replace: 'ầ', 'a' | replace: 'ậ', 'a' | replace: 'ẫ', 'a' | replace: 'ẩ', 'a' | replace: 'đ', 'd' | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'ẹ', 'e' | replace: 'ẽ', 'e' | replace: 'ẻ', 'e' | replace: 'ê', 'e' | replace: 'ế', 'e' | replace: 'ề', 'e' | replace: 'ệ', 'e' | replace: 'ễ', 'e' | replace: 'ể', 'e' | replace: 'í', 'i' | replace: 'ì', 'i' | replace: 'ị', 'i' | replace: 'ĩ', 'i' | replace: 'ó', 'o' | replace: 'ò', 'o' | replace: 'ọ', 'o' | replace: 'õ', 'o' | replace: 'ỏ', 'o' | replace: 'ô', 'o' | replace: 'ố', 'o' | replace: 'ồ', 'o' | replace: 'ộ', 'o' | replace: 'ỗ', 'o' | replace: 'ổ', 'o' | replace: 'ơ', 'o' | replace: 'ớ', 'o' | replace: 'ờ', 'o' | replace: 'ợ', 'o' | replace: 'ỡ', 'o' | replace: 'ở', 'o' | replace: 'ú', 'u' | replace: 'ù', 'u' | replace: 'ụ', 'u' | replace: 'ũ', 'u' | replace: 'ủ', 'u' | replace: 'ư', 'u' | replace: 'ứ', 'u' | replace: 'ừ', 'u' | replace: 'ự', 'u' | replace: 'ữ', 'u' | replace: 'ử', 'u' | replace: 'ý', 'y' | replace: 'ỳ', 'y' | replace: 'ỵ', 'y' | replace: 'ỹ', 'y' | replace: 'ỷ', 'y' }}">{{ tag }} </a></li>
+        {%- if forloop.last == false %} {% endif -%}
+        {% endfor %}
+      </ul>
+    {%- endif -%}
+    <div class="page-share-wrap">
+      <div class="page-share" id="pageShare">
+        <ul class="reset share-icons">
+          <li><a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | relative_url }}" data-title=" Facebook"><i class="icon icon-facebook"></i></a></li>
+          <li><a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title | escape }}&amp;url={{ page.url | relative_url }}&amp;via=https://tranvietnguyen.github.io" data-title=" Twitter"><i class="icon icon-twitter"></i></a></li>
+          <li><a class="google share-sns" target="_blank" href="https://plus.google.com/share?url={{ page.url | relative_url }}" data-title=" Google+"><i class="icon icon-google-plus"></i></a></li>
+        </ul>
+      </div><a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle"><i class="icon icon-share-alt icon-lg"></i>
+      </a>
+    </div>
+  </div>
+  {%- if site.disqus.shortname -%}
+  {%- include disqus_comments.html -%}
+{%- endif -%}
+
+<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

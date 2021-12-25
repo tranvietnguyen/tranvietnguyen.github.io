@@ -1,0 +1,77 @@
+<div id="loading" class="active"></div>
+{%- if page.title -%}
+<aside id="menu" class="hide">
+    {% else %}
+<aside id="menu">
+  {%- endif -%}
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+      <i class="icon icon-lg icon-close">
+      </i>
+    </a>
+    <div class="brand-wrap">
+      <div class="brand">
+        <a href="{{ "/" | relative_url }}" class="avatar waves-effect waves-circle waves-light">
+          <img alt="Avatar" src="https://tranvietnguyen.github.io/images/icon.png" />
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">Trần Viết Nguyên</h5>
+          <a href="mailto:tranvietnguyen94@gmail.com" title="tranvietnguyen94@gmail.com" class="mail">tranvietnguyen94@gmail.com</a>
+        </hgroup>
+      </div>
+    </div>
+      <div class="scroll-wrap flex-col">
+        <ul class="nav">
+          <li class="waves-block waves-effect active">
+            <a href="/"><i class="icon icon-lg icon-home"></i>Trang Chủ</a>
+          </li>
+          <li class="waves-block waves-effect"><a href="https://facebook.com/tranvietnguyen9x"><i class="icon icon-lg icon-facebook"></i>Facebook</a></li>
+          <li class="waves-block waves-effect"><a href="https://zalo.me/tranvietnguyen"><i class="icon icon-lg icon-tags"></i>Zalo</a></li>
+          <li class="waves-block waves-effect"><a href="mailto:tranvietnguyen94@gmail.com" target="_blank"><i class="icon icon-lg icon-google"></i>E-mail</a></li>
+          <li class="waves-block waves-effect"><a href="https://tranvietnguyen.github.io/IMG.html" target="_blank"><i class="icon icon-lg icon-image"></i>Những bức ảnh đã lưu</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+</aside>
+<main id="main">
+  <header class="top-header" id="header">
+  <div class="flex-row">
+  <a class="header-icon waves-effect waves-circle waves-light on" href="javascript:;" id="menu-toggle">
+  <i class="icon icon-lg icon-navicon"></i>
+  </a>
+  <div class="flex-col header-title ellipsis">
+    {%- if page.title -%}
+    <span style="visibility: hidden">{{ page.title | escape }}</span>
+    {% else %}
+    {{ site.title | escape }}
+    {%- endif -%}
+  </div>
+
+  <div class="search-wrap" id="search-wrap">
+    <a class="header-icon waves-effect waves-circle waves-light" href="javascript:;" id="back">
+    <i class="icon icon-lg icon-chevron-left"></i>
+    </a>
+    <div class="section" id="b-section-BlogSearch1"><div class="widget BlogSearch" id="BlogSearch1">
+    <form action="/blog" class="form-search">
+    <input aria-label="Tìm kiếm blog này" class="search-input form-search-input" id="key" name="q" placeholder="Tìm kiếm blog này" type="text">
+    </form>
+    </div></div>
+    <a class="header-icon waves-effect waves-circle waves-light" href="javascript:;" id="search"><i class="icon icon-lg icon-search"></i></a>
+  </div>
+  <a class="header-icon waves-effect waves-circle waves-light" href="javascript:;" id="menuShare"><i class="icon icon-lg icon-share-alt"></i></a>
+  <a class="header-icon waves-effect waves-circle waves-light" href="/" id="home"><i class="icon icon-lg icon-home"></i></a>
+  </div>
+
+  </header>
+
+  <header class="content-header index-header">
+    <div class="container fade-scale in">
+      {%- if page.title -%}
+      <h1 class="title" style="display: none;">{{ page.title | escape }}</h1>
+      {% else %}
+      <h1 class="title">{{ site.title | escape }}</h1>
+      <h5 class="subtitle">Học kỹ năng vượt xe trong các góc cua!</h5>
+      {%- endif -%}
+    </div>
+  </header>
