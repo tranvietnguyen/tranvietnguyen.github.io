@@ -17,13 +17,19 @@ Mà tôi, trước sau như một, chỉ khuyến khích và truyền cảm hứ
 
 Nhắc lại những điều tôi luôn khuyên các bạn làm:
 
-1. Tập thể dục đều đặn và thường xuyên.
-2. Lao ra ngoài xã hội làm việc. Làm gì cũng được, miễn là làm việc. Lý do: Để bạn có thu nhập đầu tư ngược lại cho bản thân.
-3. Không thủ dâm.
-4. Không xem sex.
-5. Không thức khuya.
-6. Ăn chơi giải trí có chừng mực và kiểm soát.
-7. Xem bản thân thiếu gì yếu gì thì bổ sung cái đó. Chưa biết bơi thì đi học bơi. Chưa biết chơi nhạc cụ thì đi học chơi nhạc cụ. Chưa biết ngoại ngữ đi học ngoại ngữ. Vân vân.
+1, Tập thể dục đều đặn và thường xuyên.
+
+2, Lao ra ngoài xã hội làm việc. Làm gì cũng được, miễn là làm việc. Lý do: Để bạn có thu nhập đầu tư ngược lại cho bản thân.
+
+3, Không thủ dâm.
+
+4, Không xem sex.
+
+5, Không thức khuya.
+
+6, Ăn chơi giải trí có chừng mực và kiểm soát.
+
+7, Xem bản thân thiếu gì yếu gì thì bổ sung cái đó. Chưa biết bơi thì đi học bơi. Chưa biết chơi nhạc cụ thì đi học chơi nhạc cụ. Chưa biết ngoại ngữ đi học ngoại ngữ. Vân vân.
 
 Làm được những điều này thì dễ, nhưng duy trì chúng thành một thói quen thì mới khó. 
 
