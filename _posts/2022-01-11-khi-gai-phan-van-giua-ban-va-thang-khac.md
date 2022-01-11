@@ -21,6 +21,7 @@ Nên chỉ cần xuất hiện một thằng C nào đó có ĐỘ NGON VƯỢT 
 Nên, khi các bạn trẻ thấy mình đang được gái đặt lên bàn cân để "cân-đo-đong-đếm" với một thằng khác, thì hãy cười thật tươi, nắm tay gái dắt đến tận nhà thằng đấy, và bảo nó rằng "CỦA ANH CẢ"!
 
 Đơn giản vậy thoy. Văn vở xàm lồn drama làm gì cho mất thời gian của các bên tham gia.
+
 <img src="/imgblog/phanvan.jpg" /><!--excerpt.s-->
 <div class="post-copyright"><div class="content">Trong thế giới động vật, hay có cảnh lũ con đực đánh nhau chí chóe để giành quyền giao phối với con cái. Nhưng đó là vì chúng là con vật. Còn mình là con người, nên tư duy và hành vi mình phải KHÁC con vật.<br />
 Đừng bao giờ để bản thân rơi vào cái cảnh giành giật một đứa con gái với thằng khác, mà hãy nhường cả cho nó một khi phát hiện mình đang được đứa con gái này cho lên bàn cân chung với thằng đó.</div></div>
