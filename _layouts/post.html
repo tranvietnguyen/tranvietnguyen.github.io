@@ -9,7 +9,15 @@ layout: default
       {{ post_cm[0] }}
       <div class="post-meta">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <time class="post-time" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>
+        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{% assign 7day = post.date | date: "%a" %}{% case 7day %}
+          {% when 'Mon' %}Thứ Hai
+          {% when 'Tue' %}Thứ Ba
+          {% when 'Wed' %}Thứ Tư
+          {% when 'Thu' %}Thứ Năm
+          {% when 'Fri' %}Thứ Sáu
+          {% when 'Sat' %}Thứ Bảy
+          {% when 'Sun' %}Chủ Nhật
+          {% endcase %}{{ post.date | date: ", ngày %d tháng %m năm %Y" }}</time>
         </div>
     {{ post_cm[1] }}
     </div>
