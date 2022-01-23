@@ -9,7 +9,7 @@ layout: default
       {{ post_cm[0] }}
       <div class="post-meta">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <time class="post-time" title="{{ page.date | date: date_format }}" datetime="{{ page.date | date: date_format }}" itemprop="datePublished">{% assign 7daypage = page.date | date: "%a" %}{% case 7day %}
+        <time class="post-time" title="{{ page.date | date: date_format }}" datetime="{{ page.date | date: date_format }}" itemprop="datePublished">{% assign 7daypage = page.date | date: "%a" %}{% case 7daypage %}
           {% when 'Mon' %}Thứ Hai
           {% when 'Tue' %}Thứ Ba
           {% when 'Wed' %}Thứ Tư
