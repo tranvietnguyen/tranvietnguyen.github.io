@@ -26,4 +26,4 @@ Và đây luôn là thông điệp tôi muốn truyền tải đến các bạn.
 Chúng ta chỉ nên tự làm mình HẠNH PHÚC ĐỦ ĐẦY trước khi bước vào bất cứ mối quan hệ nào. Khi đó, và chỉ khi đó, chúng ta mới có thể tự làm mình và đối phương hạnh phúc.
 <!--excerpt.s-->
 <div class="post-copyright"><div class="content">The greatest gift you can give to somebody is your own personal development.<br />
-I used to say, 'If you will take care of me, I will take care of you.'<br ?> Now I say, 'I will take care of me for you, if you will take care of you for me.' <br />-Jim Rohn</div></div>
+I used to say, 'If you will take care of me, I will take care of you.'<br /> Now I say, 'I will take care of me for you, if you will take care of you for me.' <br />-Jim Rohn</div></div>
