@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vấn nạn của thời đại ngày hôm nay là việc chúng ta luôn "hướng" phần lớn NĂNG LƯỢNG của mình ra THẾ GIỚI BÊN NGOÀI"
+title: "Vấn nạn của thời đại ngày hôm nay là việc chúng ta luôn hướng phần lớn NĂNG LƯỢNG của mình ra THẾ GIỚI BÊN NGOÀI"
 categories:
 author:
 - Thầy Giáo Giảng
