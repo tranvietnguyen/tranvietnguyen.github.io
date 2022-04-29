@@ -1,10 +1,10 @@
 ---
 layout: post
-title: ""
+title: "Tại sao có những cặp đôi cứ chia tay rồi lại làm lành, rồi lại chia tay, rồi lại làm lành... HẾT LẦN NÀY TỚI LẦN KHÁC?"
 categories:
 author:
 - Thầy Giáo Giảng
-tags: [Con người chân chính, Chân Thiện Mỹ, Đàn ông chân chính, Kỹ năng sống, trung tâm của chính mình]
+tags: [Con người chân chính, Chân Thiện Mỹ, Kỹ năng sống, mối quan hệ]
 meta: "Kỹ năng sống"
 ---
 Tại sao có những cặp đôi cứ chia tay rồi lại làm lành, rồi lại chia tay, rồi lại làm lành... HẾT LẦN NÀY TỚI LẦN KHÁC?
