@@ -5,7 +5,7 @@ categories:
 author:
 - Thầy Giáo Giảng
 tags: [Con người chân chính, Chân Thiện Mỹ, Đàn ông chân chính, trung tâm của chính mình]
-meta: "năng lượng"
+meta: "năng lượng bản thân"
 ---
 Như từng nói trong những bài trước đây, vấn nạn của thời đại ngày hôm nay là việc chúng ta (dù muốn hay không, dù ý thức được hay không) luôn "hướng" phần lớn (hoặc toàn bộ) NĂNG LƯỢNG của mình ra THẾ GIỚI BÊN NGOÀI.
 
@@ -27,7 +27,4 @@ Khi bạn liên tục mỗi ngày bị những quảng cáo của Shopee/Lazada/
 
 Nhưng kỳ thực, như tôi từng nói, trong 100 món đồ bạn mua, thì đa số toàn là những thứ bạn MUỐN chứ không CẦN. Bạn mua chỉ vì bạn "tin" mình đang "thiếu" chúng thôi.
 
-Sống như vậy không khổ sao? 
-
-Vài dòng.<!--excerpt.s-->
-<div class="post-copyright"><div class="content">Tôi ví việc một người sống mà dành quá nhiều năng lượng và thời gian cho thế giới bên ngoài, giống như bạn vừa mở điều hòa vừa mở cửa sổ vậy. Hậu quả không ai bên ngoài cửa sổ được mát (vì máy điều hòa không đủ sức làm mát tới mức đó), mà bản thân bạn trong phòng cũng không mát nốt (vì khí lạnh bị thoát ra ngoài). Không ai được mát, nhưng vẫn tốn điện, và người bị tốn điện cuối cùng là BẠN chứ không ai khác.</div></div>
+Sống như vậy không khổ sao? <!--excerpt.s--><div class="post-copyright"><div class="content">Tôi ví việc một người sống mà dành quá nhiều năng lượng và thời gian cho thế giới bên ngoài, giống như bạn vừa mở điều hòa vừa mở cửa sổ vậy. Hậu quả không ai bên ngoài cửa sổ được mát (vì máy điều hòa không đủ sức làm mát tới mức đó), mà bản thân bạn trong phòng cũng không mát nốt (vì khí lạnh bị thoát ra ngoài). Không ai được mát, nhưng vẫn tốn điện, và người bị tốn điện cuối cùng là BẠN chứ không ai khác.</div></div>
