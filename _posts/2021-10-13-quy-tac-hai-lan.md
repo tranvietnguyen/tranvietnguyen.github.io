@@ -15,7 +15,7 @@ Suy cho cùng, thì con người ta sẽ luôn làm điều họ MUỐN, và s�
 
 Trên đời, không ai có thể ép ai làm cái gì. Và cũng không ai thật sự nợ ai cái gì. Đơn giản vậy thôi.
 <!--excerpt.s-->
-<div class="post-copyright"><div class="content">Hà Võ: Thứ nhất, chính xác là "hai lần", không phải một lần.<br />
+<div class="post-copyright"><div class="content">Thứ nhất, chính xác là "hai lần", không phải một lần.<br />
 Thứ hai, cái sự "từ bỏ" (sau hai lần không thành) không đồng nghĩa với KHÔNG kiên nhẫn (vì sự kiên nhẫn ĐÃ được thể hiện qua nỗ lực đưa ra lời mời không chỉ một mà tới HAI lần), mà chỉ đơn giản là không làm phí thời gian của hai bên.<br />
 Thứ ba, đúng là đúng thôi, làm gì có thứ nào đúng mà còn phải "tùy" hết cái này đến cái nọ. Vì nếu thế thì nó đã không đúng. Mà tôi thì không có thói quen (và cũng không thừa thời gian) viết về thứ không đúng.<br />
 Tất nhiên, trên đời không có gì là tuyệt đối, kể cả những gì tôi viết ở đây. Tôi chưa bao giờ bảo tôi đúng tuyệt đối 100%, nhưng tôi biết mình đúng đến ít nhất 80%, tức là đa số. Nghĩa là đâu đó sẽ có những case thiểu số (tối đa 20%) không đúng với những gì tôi viết, nhưng không có nghĩa tôi không đúng.<br />
