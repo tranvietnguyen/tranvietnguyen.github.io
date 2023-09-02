@@ -4,8 +4,8 @@ title: "Sự khác nhau giữa "CHỦ ĐỘNG" và "CHẠY THEO" là gì?"
 categories:
 author:
 - Thầy Giáo Giảng
-tags: [Con người chân chính, Chân Thiện Mỹ, Đàn ông chân chính, Kỹ năng sống, trung tâm của chính mình]
-meta: "Kỹ năng sống"
+tags: [Con người chân chính, Chân Thiện Mỹ, Đàn ông chân chính, Mối quan hệ, thu hút, trung tâm của chính mình]
+meta: "Mối quan hệ, thu hút, Đàn ông chân chính"
 ---
 Sự khác nhau giữa "CHỦ ĐỘNG" và "CHẠY THEO" là gì?
 
