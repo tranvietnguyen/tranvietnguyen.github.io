@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sự khác nhau giữa "CHỦ ĐỘNG" và "CHẠY THEO" là gì?"
+title: "Sự khác nhau giữa CHỦ ĐỘNG và CHẠY THEO là gì?"
 categories:
 author:
 - Thầy Giáo Giảng
