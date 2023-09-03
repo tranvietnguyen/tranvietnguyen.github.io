@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "Giá trị bản thân"
 categories:
 author:
 - Thầy Giáo Giảng
