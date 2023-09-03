@@ -2996,7 +2996,7 @@
 
 @media screen and (min-width: 1025px) {
     .post-content p, .post-content .post-copyright .content {
-        font-size: 24px;
+        font-size: 20px;
         word-wrap: break-word;
         line-height: 180%;
     }

@@ -3024,7 +3024,7 @@ a[title="站长统计"] {
   }
   .post-header .title {
     display: none;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5;
   }
 }
@@ -3714,7 +3714,7 @@ pre .javascript .function {
   margin-top: 8px;
 }
 .post-card-title {
-  font-size: 24px;
+  font-size: 20px;
 }
 .post-card .post-content {
   font-size: 19px;
@@ -3870,7 +3870,7 @@ pre .javascript .function {
   color: #727272;
 }
 .post-content h1 {
-  font-size: 24px;
+  font-size: 20px;
 }
 .post-content h2 {
   font-size: 22px;
