@@ -2130,7 +2130,7 @@
 }h2,.h2 {
     font-size:34px;line-height:40px
 }h3,.h3 {
-    font-size:24px;line-height:32px
+    font-size:20px;line-height:32px
 }h4,.h4 {
     font-size:20px;line-height:28px
 }h5,.h5 {
@@ -2500,13 +2500,13 @@
     margin:0;min-height:auto;padding:72px 16px 20px
 }
 .content-header .title {
-    font-size:24px;line-height:30px
+    font-size:20px;line-height:30px
 }
 .content-header .subtitle {
     font-size:14px;line-height:20px
 }
 .post-header .title {
-    display:block;font-size:24px;line-height:1.5
+    display:block;font-size:20px;line-height:1.5
 }
 }
 .post-content pre {
@@ -3026,19 +3026,19 @@
     color:#727272
 }
 .post-content h1 {
-    font-size:24px
-}
-.post-content h2 {
-    font-size:22px
-}
-.post-content h3 {
     font-size:20px
 }
-.post-content h4 {
+.post-content h2 {
     font-size:18px
 }
-.post-content h5 {
+.post-content h3 {
+    font-size:17px
+}
+.post-content h4 {
     font-size:16px
+}
+.post-content h5 {
+    font-size:15px
 }
 .post-content h6 {
     font-size:14px
