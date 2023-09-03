@@ -4,8 +4,7 @@ title: ""
 categories:
 author:
 - Thầy Giáo Giảng
-- tac gia 2
-tags: [Con người chân chính, Chân Thiện Mỹ, Đàn ông chân chính, Kỹ năng sống, trung tâm của chính mình]
+tags: [giá trị bản thân, Kiến thức, năng lực, trung tâm của chính mình]
 meta: "Kỹ năng sống"
 ---
 Ở đời, muốn người khác nhớ đến mình, muốn gặp mình, muốn trò chuyện với mình, muốn dành thời gian cho mình, muốn gắn kết cùng mình... thì bắt buộc chúng ta phải có VALUE.
