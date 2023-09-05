@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Giá trị bản thân"
+title: "Muốn người khác nhớ đến mình, muốn gặp mình, muốn trò chuyện với mình, muốn dành thời gian cho mình, muốn gắn kết cùng mình... thì bắt buộc chúng ta phải có VALUE."
 categories:
 author:
 - Thầy Giáo Giảng
