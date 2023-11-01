@@ -2626,7 +2626,7 @@ input.b-orange {
 .tab-bottom {
     bottom: 0;
     width: 100%;
-    position: fixed;
+    position: relative;
 }
 .weui-navbar__item.tab-green {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
