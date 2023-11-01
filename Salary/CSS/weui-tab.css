@@ -156,6 +156,7 @@
   display:-webkit-box;
   display:-webkit-flex;
   display:flex;
+  position:absolute;
   z-index:500;
   bottom:0;
   width:100%;
@@ -163,6 +164,7 @@
 }
 .weui-tabbar:before{
   content:" ";
+  position:absolute;
   left:0;
   top:0;
   right:0;
