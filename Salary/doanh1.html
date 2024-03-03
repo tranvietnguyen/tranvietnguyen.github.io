@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" class="pixel-ratio-2 retina android android-10"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Phiếu lương</title>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <link href="https://portal.fihmb.com/Content/weui.min.css?201901160900" rel="stylesheet" type="text/css"><link href="https://portal.fihmb.com/Content/salary.css?201711091100" rel="stylesheet" type="text/css"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"></head>
+<body style="">
+    <form method="post" action="https://portal.fihmb.com/VNsalary/salaryList.aspx?From=iProud&amp;AppId=76624827894784&amp;Signature=25a93510221843be530166c0522c8ee3&amp;Timestamp=1709426020152&amp;Nonce=348441&amp;Theme=light-theme&amp;Lang=vi-VN&amp;AuthCode=0b630b8b12444fe0Ac3dad91658185f6" id="form1">
+<div class="aspNetHidden">
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="aspNetHidden">
+
+	
+	
+	
+</div>
+        
+        <!-- loading -->
+        <div id="divloading" class="weui_loading_toast" style="display: none;">
+            <div class="weui_mask_transparent"></div>
+            <div class="weui_toast">
+                <div class="weui_loading">
+                    <div class="weui_loading_leaf weui_loading_leaf_0"></div>
+                    <div class="weui_loading_leaf weui_loading_leaf_1"></div>
+                    <div class="weui_loading_leaf weui_loading_leaf_2"></div>
+                    <div class="weui_loading_leaf weui_loading_leaf_3"></div>
+                    <div class="weui_loading_leaf weui_loading_leaf_4"></div>
+                    <div class="weui_loading_leaf weui_loading_leaf_5"></div>
+                    <div class="weui_loading_leaf weui_loading_leaf_6"></div>
+                    <div class="weui_loading_leaf weui_loading_leaf_7"></div>
+                    <div class="weui_loading_leaf weui_loading_leaf_8"></div>
+                    <div class="weui_loading_leaf weui_loading_leaf_9"></div>
+                    <div class="weui_loading_leaf weui_loading_leaf_10"></div>
+                    <div class="weui_loading_leaf weui_loading_leaf_11"></div>
+                </div>
+                <p id="PloadText" class="weui_toast_content">Xử lý dữ liệu</p>
+            </div>
+        </div>
+        
+        <div id="divMsg" class="weui_msg" style="display: none">
+            <div class="weui_icon_area"><i id="msgpic" class=""></i></div>
+            <div class="weui_text_area">
+                <h2 id="msgTitle" class="weui_msg_title"></h2>
+                <p id="msgdesc" class="weui_msg_desc"></p>
+            </div>
+            <div class="weui_opr_area">
+                <p class="weui_btn_area">
+                    <a id="msgok" class="weui_btn weui_btn_primary">Xác định</a>
+                    <a id="msgcancel" class="weui_btn weui_btn_default">Hủy bỏ</a>
+                </p>
+            </div>
+            <div class="weui_extra_area">
+                <a id="msgfootlink" href="https://portal.fihmb.com/VNsalary/salaryList.aspx?From=iProud&amp;AppId=76624827894784&amp;Signature=25a93510221843be530166c0522c8ee3&amp;Timestamp=1709426020152&amp;Nonce=348441&amp;Theme=light-theme&amp;Lang=vi-VN&amp;AuthCode=0b630b8b12444fe0Ac3dad91658185f6"></a>
+            </div>
+        </div>
+
+        <div class="weui_dialog_confirm" id="divDiaInputUserID" style="display: none;">
+            <div class="weui_mask"></div>
+            <div class="weui_dialog">
+
+
+                <div class="weui_dialog_hd">
+                    <strong id="iptIDTitle" class="weui_dialog_title">Vui lòng mất số công việc và số ID sau sáu</strong>
+                </div>
+
+
+                <div class="weui_cells weui_cells_radio">
+                    <div class="weui_cell">
+                        <div class="weui_cell_hd">
+                            <label id="1" class="weui_label_self">Tiếng việt：</label>
+                        </div>
+                        <div style="margin-left: 5px" id="11" class="weui_cell_bd weui_cell_primary">
+                            <label class="weui_cell weui_check_label" for="rdoCN">
+                                <div class="weui_cell_ft">
+                                    <input type="radio" class="weui_check" name="radio1" id="rdoCN" value="vi-VN" checked="checked">
+                                    <span class="weui_icon_checked"></span>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="weui_cell_hd">
+                            <label id="2" class="weui_label_self">English：</label>
+                        </div>
+                        <div style="margin-left: 5px" id="21" class="weui_cell_bd weui_cell_primary">
+                            <label class="weui_cell weui_check_label" for="rdoEN">
+                                <div class="weui_cell_ft">
+                                    <input type="radio" name="radio1" class="weui_check" id="rdoEN" value="en-US">
+                                    <span class="weui_icon_checked"></span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="weui_cells">
+                    <div class="weui_cell">
+                        <div id="divID" class="weui_cell_hd">
+                            <label id="lblIDtext" class="weui_label_self">Số công việc：</label>
+                        </div>
+                        <div class="weui_cell_bd weui_cell_primary">
+                            <input id="iputID" class="weui_input" type="text" value="">
+                        </div>
+                    </div>
+                    
+                    <div class="weui_cell">
+                        <div class="weui_cell_hd">
+                            <label id="lblIDCard" class="weui_label_self">Số ID：</label>
+                        </div>
+                        <div class="weui_cell_bd weui_cell_primary">
+                            <input class="weui_input" id="iptIDCard" maxlength="6" type="text" placeholder="Vui lòng nhập sáu chữ số cuối">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="weui_dialog_ft">
+                    <a id="iptIDcancel" class="weui_btn_dialog default">Hủy bỏ</a>
+                    <a id="iptIDok" class="weui_btn_dialog primary">Xác định</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="divVerifyPwd" style="display: none;">
+            <div id="divPVTitle" class="Toptitle">Xác minh mật khẩu</div>
+            <div class="weui_cells">
+                <div class="weui_cell">
+                    <div class="weui_cell_hd">
+                        <label id="lblUserCode" class="weui_label_self">Mã nhân viên：</label>
+                    </div>
+                    <div style="margin-left: 5px" id="divUserId" class="weui_cell_bd weui_cell_primary">V1518721</div>
+                    <div class="weui_cell_hd">
+                        <label id="lblName" class="weui_label_self">Tên：</label>
+                    </div>
+                    <div style="margin-left: 5px" id="divName" class="weui_cell_bd weui_cell_primary">Tran Viet Nguyen</div>
+                </div>
+            </div>
+            <div class="weui_cells" style="margin-top: 20px">
+                <div class="weui_cell">
+                    <div class="weui_cell_hd">
+                        <label id="lblPwd" class="weui_label_self">Mật khẩu：</label>
+                    </div>
+                    <div class="weui_cell_bd weui_cell_primary">
+                        <input class="weui_input" id="iptPassword" maxlength="6" type="password" placeholder="mật khẩu của bạn">
+                    </div>
+                </div>
+            </div>
+            <div class="weui_cells">
+                <div class="weui_cell">
+                    <div class="weui_cell_hd">
+                        <label id="lblVCode" class="weui_label_self">Mã xác minh：</label>
+                    </div>
+                    <div class="weui_cell_bd weui_cell_primary">
+                        <input id="iptValidateCode" class="weui_input" maxlength="4" placeholder="Vui lòng nhập ">
+                    </div>
+                    <div class="weui_cell_ft">
+                        <img id="imgvcode" style="vertical-align: middle" alt="" src="https://portal.fihmb.com/Salary/ValidateCode.aspx" href="../Salary/ValidateCode.aspx?rand=0.4779219289611363">
+                        <a id="aChange" style="vertical-align: middle">Thay đổi</a>
+                    </div>
+                </div>
+            </div>
+            <p style="text-align: right; margin: 5px 10px">
+                <a id="foregetpwd" href="https://portal.fihmb.com/VNsalary/salaryList.aspx?From=iProud&amp;AppId=76624827894784&amp;Signature=25a93510221843be530166c0522c8ee3&amp;Timestamp=1709426020152&amp;Nonce=348441&amp;Theme=light-theme&amp;Lang=vi-VN&amp;AuthCode=0b630b8b12444fe0Ac3dad91658185f6" style="text-align: right; display: none"><span id="spanForget" style="font-size: 13px">忘記密碼</span></a>
+            </p>
+            <div style="margin-top: 40px" class="bd spacing">
+                <a id="btnVerPwdSubmit" class="weui_btn weui_btn_primary">Gửi</a>
+            </div>
+
+            
+            
+
+
+<link href="https://portal.fihmb.com/Content/weui-tab.css?201904020001" rel="stylesheet" type="text/css">
+<link href="https://portal.fihmb.com/Content/weuix.css?201904020001" rel="stylesheet" type="text/css">
+<link href="https://portal.fihmb.com/Content/icon.css?201904020001" rel="stylesheet" type="text/css">
+<div class="weui-tab tab-bottom " style="height: 44px;">
+    <div class="weui-tabbar">
+        <a name="menu1" href="https://portal.fihmb.com/VNsalary/SalaryList.aspx?AuthCode=TOTAL" class="weui-tabbar__item weui-bar__item_on">
+            <i class="icon icon-43 f27 weui-tabbar__icon"></i>
+            <p title="PSalary" class="weui-tabbar__label">Phiếu lương</p>
+        </a>
+       
+        <a name="menu3" href="https://portal.fihmb.com/VNsalary/Steward.aspx" class="weui-tabbar__item">
+            <i class="icon icon-84 f27 weui-tabbar__icon"></i>
+            <p title="PHelp" class="weui-tabbar__label">Hỗ trợ</p>
+        </a>
+    </div>
+</div>
+
+
+        </div>
+
+        <div id="divSalaryList" style="">
+            <div id="divSalTitle" class="Toptitle">Bảng lương điện tử</div>
+            <div class="weui_cells weui_cells_form">
+            </div>
+            <div class="weui_cells">
+                <div class="weui_cell">
+                    <div id="divUserID" class="weui_cell_bd weui_cell_primary">Mã nhân viên：</div>
+                    <div class="weui_cell_ft ">
+                        <label id="UserCode" class="cell_value">V1517049</label>
+                    </div>
+                </div>
+
+                <div class="weui_cell">
+                    <div id="divUserName" class="weui_cell_bd weui_cell_primary">Tên：</div>
+                    <div class="weui_cell_ft">
+                        <label id="UserName" style="color: #3e24bd">Nguyen Huu Doanh</label>
+                    </div>
+                </div>
+            </div>
+            <div class="weui_cells">
+                <div class="weui_cell weui_cell_select">
+                    <div id="divSymTitle" class="weui_cell_hd">Tháng：</div>
+                    <div id="divSalaryYM" class="weui_cell_bd weui_cell_primary">
+                    <select id="sltYM" dir="rtl" style="padding-right:30px;color:#3e24bd" class="weui_select" name="sym"><option value="1-2024">1 / 2024</option><option value="12-2023">12 / 2023</option><option value="11-2023">11 / 2023</option><option value="10-2023">10 / 2023</option><option value="9-2023">9 / 2023</option><option value="8-2023">8 / 2023</option><option value="7-2023">7 / 2023</option><option value="6-2023">6 / 2023</option><option value="5-2023">5 / 2023</option><option value="4-2023">4 / 2023</option><option value="3-2023">3 / 2023</option><option value="2-2023">2 / 2023</option><option value="1-2023">1 / 2023</option><option value="12-2022">12 / 2022</option><option value="11-2022">11 / 2022</option><option value="10-2022">10 / 2022</option><option value="9-2022">9 / 2022</option><option value="8-2022">8 / 2022</option><option value="7-2022">7 / 2022</option><option value="6-2022">6 / 2022</option><option value="5-2022">5 / 2022</option><option value="4-2022">4 / 2022</option><option value="3-2022">3 / 2022</option><option value="2-2022">2 / 2022</option><option value="1-2022">1 / 2022</option><option value="12-2021">12 / 2021</option><option value="11-2021">11 / 2021</option><option value="10-2021">10 / 2021</option><option value="9-2021">9 / 2021</option><option value="8-2021">8 / 2021</option><option value="7-2021">7 / 2021</option><option value="6-2021">6 / 2021</option><option value="5-2021">5 / 2021</option><option value="4-2021">4 / 2021</option><option value="3-2021">3 / 2021</option><option value="2-2021">2 / 2021</option><option value="1-2021">1 / 2021</option></select></div>
+                </div>
+                
+            </div>
+
+            <div id="divslcontent" class="weui_cells"><div class="weui_cells"><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Chức danh:</div><div class="weui_cell_ft "><label class="dept_value"></label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Ngày vào làm:</div><div class="weui_cell_ft "><label class="dept_value">05/09/2019</label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Phòng ban:</div><div class="weui_cell_ft "><label class="dept_value">ASSEMBLY OPERATIONS-MAINTENANCE</label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Tiền tệ:</div><div class="weui_cell_ft "><label class="dept_value">VND</label></div></div><div class="weui_cell subtotal"><div class="weui_cell_bd weui_cell_primary">(A)LƯƠNG GỘP：</div><div class="weui_cell_ft "><label class="cell_value">11,262,500</label></div></div><div class="weui_cell subtotal"><div class="weui_cell_bd weui_cell_primary">(B) TỔNG THU NHẬP：</div><div class="weui_cell_ft "><label class="cell_value">11,262,500</label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Giờ công tiêu chuẩn：</div><div class="weui_cell_ft "><label class="cell_value">216</label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Giờ công thực tế (ngày)：</div><div class="weui_cell_ft "><label class="cell_value">200</label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Nghỉ hưởng lương：</div><div class="weui_cell_ft "><label class="cell_value">16</label></div></div><div class="weui_cell  subtotal"><div class="weui_cell_bd weui_cell_primary">Lương thực tế：</div><div class="weui_cell_ft "><label class="cell_value">11,262,500</label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Lương thực tế (ngày đêm)：</div><div class="weui_cell_ft "><label class="cell_value">11,262,500</label></div></div><div class="weui_cell  subtotal"><div class="weui_cell_bd weui_cell_primary">Lương làm thêm：</div><div class="weui_cell_ft "><label class="cell_value">3,411,237.48</label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">OT 150：</div><div class="weui_cell_ft "><label class="cell_value">42&nbsp;/&nbsp;3,411,237.48</label></div></div><div class="weui_cell  subtotal"><div class="weui_cell_bd weui_cell_primary">Các khoản phụ cấp, trợ cấp：</div><div class="weui_cell_ft "><label class="cell_value"></label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Phụ cấp nhà ở：</div><div class="weui_cell_ft "><label class="cell_value">300,000</label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Phụ cấp đi lại：</div><div class="weui_cell_ft "><label class="cell_value">150,000</label></div></div><div class="weui_cell  subtotal"><div class="weui_cell_bd weui_cell_primary">Thưởng：</div><div class="weui_cell_ft "><label class="cell_value"></label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Thưởng quý：</div><div class="weui_cell_ft "><label class="cell_value">3,628,467.18</label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Thưởng khác：</div><div class="weui_cell_ft "><label class="cell_value">32,000</label></div></div><div class="weui_cell subtotal"><div class="weui_cell_bd weui_cell_primary">PHÚC LỢI CHỊU THUẾ TNCN：</div><div class="weui_cell_ft "><label class="cell_value"></label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">BH PVI cho người phụ thuộc：</div><div class="weui_cell_ft "><label class="cell_value">0</label></div></div><div class="weui_cell subtotal"><div class="weui_cell_bd weui_cell_primary">THU NHẬP CHỊU THUẾ：</div><div class="weui_cell_ft "><label class="cell_value">18,302,204</label></div></div><div class="weui_cell subtotal"><div class="weui_cell_bd weui_cell_primary">GIẢM TRỪ TRƯỚC THUẾ：</div><div class="weui_cell_ft "><label class="cell_value">-11,907,258</label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">Giảm trừ cho bản thân：</div><div class="weui_cell_ft "><label class="cell_value">-11,000,000</label></div></div><div class="weui_cell"><div class="weui_cell_bd weui_cell_primary">10.5% BHXH,BHYT,BHTN chi trả bởi nhân viên：</div><div class="weui_cell_ft "><label class="cell_value">-1,182,562.50</label></div></div><div class="weui_cell subtotal"><div class="weui_cell_bd weui_cell_primary">THU NHẬP TÍNH THUẾ：</div><div class="weui_cell_ft "><label class="cell_value">5,857,142</label></div></div><div class="weui_cell subtotal"><div class="weui_cell_bd weui_cell_primary">THUẾ THU NHẬP：</div><div class="weui_cell_ft "><label class="cell_value">-335,714</label></div></div><div class="weui_cell subtotal"><div class="weui_cell_bd weui_cell_primary">ĐOÀN PHÍ ：</div><div class="weui_cell_ft "><label class="cell_value">-47,000</label></div></div><div class="weui_cell subtotal"><div class="weui_cell_bd weui_cell_primary">THỰC LĨNH：</div><div class="weui_cell_ft "><label class="cell_value">16,736,937</label></div></div></div></div>
+
+            <div class="weui_cells">
+                <div class="bd">
+                    <article class="weui_article">
+                    <section>
+                        <section>
+                            <h5 id="h5" class="atxtT">Chú ý</h5>
+                            <p id="pOWBase" class="atxtT ">Mọi thắc mắc về lương tháng 01/2024, vui lòng liên hệ bộ phận hỗ trợ theo số điện thoại 3787 chậm nhất 17:00 ngày 20 tháng 02 năm 2024 kể từ ngày nhận được phiếu lương chính thức. Sau thời gian này mọi thắc mắc sẽ không được tiếp nhận và giải quyết. Cảm ơn!</p>
+                           
+                        </section>
+                    </section>
+                </article>
+                </div>
+            </div>
+            <br>
+            
+
+
+<link href="https://portal.fihmb.com/Content/weui-tab.css?201904020001" rel="stylesheet" type="text/css">
+<link href="https://portal.fihmb.com/Content/weuix.css?201904020001" rel="stylesheet" type="text/css">
+<link href="https://portal.fihmb.com/Content/icon.css?201904020001" rel="stylesheet" type="text/css">
+<div class="weui-tab tab-bottom " style="height: 44px;">
+    <div class="weui-tabbar">
+        <a name="menu1" href="https://portal.fihmb.com/VNsalary/SalaryList.aspx?AuthCode=TOTAL" class="weui-tabbar__item weui-bar__item_on">
+            <i class="icon icon-43 f27 weui-tabbar__icon"></i>
+            <p title="PSalary" class="weui-tabbar__label">Phiếu lương</p>
+        </a>
+       
+        <a name="menu3" href="https://portal.fihmb.com/VNsalary/Steward.aspx" class="weui-tabbar__item ">
+            <i class="icon icon-84 f27 weui-tabbar__icon"></i>
+            <p title="PHelp" class="weui-tabbar__label">Hỗ trợ</p>
+        </a>
+    </div>
+</div>
+
+
+        </div>
+        
+
+
+    </form>
+
+
+
+
+
+
+</body></html>
