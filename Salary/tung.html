@@ -13,36 +13,44 @@
     
     
     <link href="https://portal.fihmb.com/Content/weui.min.css?201901160900" rel="stylesheet" type="text/css"><link href="https://portal.fihmb.com/Content/salary.css?201711091100" rel="stylesheet" type="text/css"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"></head>
+
+
+
+
+
+
 <style>
 .fixed-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    color: #343434;
-    text-align: center;
-    padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    z-index: 1000;
-}
-.fixed-header .weui-tabbar__icon {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            color: #343434;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+        }
+        .fixed-header .weui-tabbar__icon {
             margin: 0 5px; /* Khoảng cách giữa các icon */
         }
         .fixed-header .fa-angle-left {
-            margin-right: 15px; /* Tạo khoảng cách 15px với phần H11 và mép trái */
+            margin-right: 15px; /* Khoảng cách 15px với phần H12 và mép trái */
         }
         .fixed-header .fa-ellipsis {
-            margin-left: 15px; /* Tạo khoảng cách 15px với phần circle và mép phải */
+            margin-right: 5px; /* Khoảng cách 5px với phần circle-dot */
         }
         .fixed-header .fa-circle-dot {
-            margin-right: 30px; /* Tạo khoảng cách 15px với mép phải */
+            margin-left: 5px; /* Khoảng cách 5px với phần ellipsis */
+            margin-right: 25px;
         }
         .fixed-header span {
-            flex: 1; /* Để H11 ở giữa */
-            text-align: center; /* Căn giữa nội dung của H11 */
+            flex: 1; /* Để H12 ở giữa */
+            text-align: center; /* Căn giữa nội dung của H12 */
+            font-size: 14px;
         }
 </style>
 <script src="https://kit.fontawesome.com/824124af24.js" crossorigin="anonymous"></script>
@@ -51,22 +59,18 @@
     <div class="fixed-header">
         <i class="fa-solid fa-angle-left f27 weui-tabbar__icon"></i>
         <span>Phiếu lương</span>
-        <i class="fa-solid fa-ellipsis f27 weui-tabbar__icon"></i>
-        <i class="fa-regular fa-circle-dot f27 weui-tabbar__icon"></i>
+        <i class="fa-solid fa-ellipsis f20 weui-tabbar__icon"></i>
+        <i class="fa-regular fa-circle-dot f20 weui-tabbar__icon"></i>
     </div>
 
 
+
+    
 <div class="aspNetHidden">
 
 
 
 </div>
-<!--<i class="icon icon-109 f27 weui-tabbar__icon"></i>-->
-
-        <!--<i class="icon icon-83 f27 weui-tabbar__icon"></i>-->
-
-
-
 
 
 
