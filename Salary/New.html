@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+        body {
+            font-family: Roboto;
+            font-weight: 200;
+            margin: 20px;
+            color: #888;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            color: #39669d;
+            font-size: 20px;
+            position: relative;
+        }
+
+        .header i {
+    position: absolute;
+    left: 10px;
+    font-size: 30px; /* Increase the size of the arrow */
+    font-weight: bold; /* Make the arrow thicker */
+}
+
+        .date-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .date-column {
+            text-align: center;
+            width: 49%;
+            height: 50px;
+        }
+
+        .blue-box {
+            background-color: #39669d;
+            color: #fff;
+            padding: 10px;
+            margin-bottom: -1px; /* To remove extra space between blue box and rectangles */
+        }
+
+        .rectangle-container {
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #cce1f2;
+            border-width: 1px 0 0 1px; /* Adjust borders to ensure no extra thickness */
+        }
+
+        .rectangle {
+            text-align: center;
+            padding: 7px;
+            width: 50%;
+            box-sizing: border-box;
+            background-color: #fff;
+            border: 1px solid #cce1f2;
+            border-width: 0 1px 1px 0; /* Adjust borders to ensure no extra thickness */
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/824124af24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <i class="fa-solid fa-angle-left f27 weui-tabbar__icon"></i>
+        <span>Chi tiết</span>
+    </div>
+    <br /><br />
+    <div class="date-container">
+        <div class="date-column">Từ tháng: 04/2023</div>
+        <div class="date-column">Đến tháng: 06/2024</div>
+    </div>
+    <div class="blue-box">Chức vụ: <b>Kỹ thuật viên sản xuất</b>
+      <br />Đơn vị công tác: <b>Công ty TNHH Fushan Technology (Việt Nam)</b>
+      <br />Nơi làm việc: <b>Số 8, đường 6, Khu CN Vsip, Phù Chẩn, TX Từ Sơn, Bắc Ninh</b>
+      <br />Loại tiền: <b>VND</b>
+    </div>
+    <div class="rectangle-container">
+        <div class="rectangle">Tiền lương đóng BHXH</div>
+        <div class="rectangle" style="text-align: right; padding-right: 10px;">7.910.400</div>
+        <div class="rectangle">Mức lương</div>
+        <div class="rectangle" style="text-align: right; padding-right: 10px;">7.910.400</div>
+    </div>
+</body>
+</html>
